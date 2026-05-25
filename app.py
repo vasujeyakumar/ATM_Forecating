@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-from prediction import predict_next_7_days
+from prediction_version2  import predict_next_7_days
 
 
 # =========================================================
