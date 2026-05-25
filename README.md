@@ -8,20 +8,19 @@ This project is a Streamlit-based machine learning application that predicts ATM
 
 
 ATM_Forecasting/
+├── app.py                          # Streamlit UI application
+├── prediction_version2.py          # Prediction pipeline logic
+├── calenter.py                    # Feature engineering (latest calendar features)
 │
-├── app.py # Streamlit UI application
-├── prediction_version2.py # Prediction pipeline logic
-├── calenter.py # Feature engineering (latest calendar features)
-│
-├── XgbVersion_2_model.pkl # Trained XGBoost model
+├── XgbVersion_2_model.pkl         # Trained XGBoost model
 │
 ├── artifact/
-│ ├── encoders/ # Label encoders for categorical features
+│   └── encoders/                  # Label encoders for categorical features
 │
 ├── merged_data/
-│ └── last_40_days.csv # Recent 40 days ATM data used for prediction features
+│   └── last_40_days.csv           # Recent 40 days ATM data used for prediction features
 │
-└── Files_Directory/ (optional) # Raw or historical data files
+└── Files_Directory/ (optional)    # Raw or historical data files
 
 
 ---
