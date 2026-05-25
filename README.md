@@ -5,8 +5,8 @@ This project is a Streamlit-based machine learning application that predicts ATM
 ---
 
 ## 📁 Project Structure
-
 📦 ATM_Forecasting
+
 ├── 📄 app.py                          # Streamlit UI application
 
 ├── 📄 prediction_version2.py          # Prediction pipeline logic
@@ -20,6 +20,7 @@ This project is a Streamlit-based machine learning application that predicts ATM
   └── 📄 last_40_days.csv            # Recent 40 days ATM data
 
 ├── 📄 XgbVersion_2_model.pkl          # Trained XGBoost model
+
 └── 📁 Files_Directory (optional)      # Raw or historical data files
 
 ---
