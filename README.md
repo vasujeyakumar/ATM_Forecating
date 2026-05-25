@@ -14,16 +14,13 @@ This project is a Streamlit-based machine learning application that predicts ATM
 ├── 📄 calenter.py                     # Feature engineering (latest calendar features)
 
 ├── 📦 artifact
-
-  └── 📁 encoders                    # Label encoders for categorical features
-
-├── 📦 merged_data
-
-  └── 📄 last_40_days.csv            # Recent 40 days ATM data
+           📁 encoders                    # Label encoders for categorical features
+           📦 merged_data
+           📄 last_40_days.csv            # Recent 40 days ATM data
 
 ├── 📄 XgbVersion_2_model.pkl          # Trained XGBoost model
 
-└── 📁 Files_Directory (optional)      # Raw or historical data files
+└── 📄 requirements.txt
 
 ---
 
